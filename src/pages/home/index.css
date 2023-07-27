@@ -6,6 +6,7 @@
 body {
   font-family: "Poppins";
   font-size: 18px;
+  background-color: #FEFDFB;
 }
 
 /* Engloba todos os containers, subcontainers e elementos.
@@ -87,20 +88,40 @@ h1 {
 
 /* SECTION 2*/
 .f2 {
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 70px;
 }
 
 .f2-cards-block {
-
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  justify-content: center; /* Como não consegui centralizar pelo wrapper em .f2, usei esse cmd */
 }
 
 .f2-card {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.f2-card img {
+  height: 150px;
 }
 
 .f2-card h3 {
-
+  text-align: center;
+  font-size: 18px;
 }
 
 .f2-card p {
-
+  text-align: center;
+  font-size: 16px;
 }
