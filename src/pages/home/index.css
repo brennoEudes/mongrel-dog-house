@@ -16,6 +16,7 @@ Importante para a responsividade do site! */
   /*border: 2px solid green;*/
 }
 
+/* SECTION 1*/
 .f1 {
   display: flex;
   justify-content: center; /* centraliza todo o bloco perante à pág*/
@@ -82,4 +83,24 @@ h1 {
   filter: drop-shadow(0px 7px 15px rgba(134, 179, 74, 0.53))
     drop-shadow(0px 5px 7px rgba(134, 179, 74, 0.1))
     drop-shadow(0px 4px 4px rgba(177, 200, 146, 0.16));
+}
+
+/* SECTION 2*/
+.f2 {
+}
+
+.f2-cards-block {
+
+}
+
+.f2-card {
+
+}
+
+.f2-card h3 {
+
+}
+
+.f2-card p {
+
 }
