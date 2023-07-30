@@ -104,6 +104,7 @@ h1 {
   flex-direction: row;
   gap: 70px;
   justify-content: center; /* Como não consegui centralizar pelo wrapper em .f2, usei esse cmd */
+  flex-wrap: wrap; /* RESPONSIVIDADE sem necessidade de criar @mediaqueries, neste caso. */
 }
 
 .f2-card {
@@ -165,4 +166,22 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+@media (max-width: 1200px) {
+  .f3-cards-block {
+    flex-direction: column;
+  }
+
+  .f3-subcards-block {
+    flex-direction: row;
+  }
+
+  .f3-cards-block > img {
+    width: 100%;
+  }
+
+  .f3-subcards-block img {
+    width: calc(50% - 13px); /* RESPOSIVIDADE + fluída: reduz width e o gap entre as imgs.*/
+  }
 }
