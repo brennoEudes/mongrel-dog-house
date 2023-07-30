@@ -189,6 +189,14 @@ h1 {
   gap: 24px;
 }
 
+.f3-cards-block img {
+  transition: .3s;
+}
+
+.f3-cards-block img:hover {
+  transform: scale(1.05);
+}
+
 .f3-subcards-block {
   display: flex;
   flex-direction: column;
