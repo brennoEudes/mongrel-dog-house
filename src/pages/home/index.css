@@ -134,6 +134,11 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: .3s;
+}
+
+.f2-card:hover {
+  transform: scale(1.1); /* Animação de aumento do card */
 }
 
 .f2-card img {
