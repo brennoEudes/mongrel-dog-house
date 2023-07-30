@@ -193,7 +193,6 @@ h1 {
 }
 
 @media (max-width: 1024px) {
-
   #menu-icon {
     display: inline-block;
   }
@@ -202,7 +201,7 @@ h1 {
     flex-direction: column-reverse;
   }
 
-  .f1-img {
+  .f1-conteudo img {
     width: 100%;
     max-width: 400px;
   }
@@ -220,7 +219,8 @@ h1 {
     color: #36392e;
   }
 
-  .f1-textos br, nav {
+  .f1-textos br,
+  nav {
     display: none;
   }
 
