@@ -21,12 +21,16 @@ Importante para a responsividade do site! */
 .f1 {
   display: flex;
   justify-content: center; /* centraliza todo o bloco perante à pág*/
-  padding: 30px 20px;
+  padding: 30px 20px; /* Colocamos o padding nas laterais p/ garantir que os itens não encostem nas laterais durante a RESPONSIVIDADE */
 }
 
 header {
   display: flex; /* row é o padrão */
   justify-content: space-between;
+}
+
+#menu-icon {
+  display: none;
 }
 
 nav {
@@ -51,7 +55,7 @@ nav a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 440px;
+  max-width: 440px;
   color: #36392e;
 }
 
@@ -72,7 +76,7 @@ h1 {
   margin-bottom: 40px;
 }
 
-.btn-adotar {
+.f1-textos a {
   background-color: #75a342;
   color: #fff; /* !important - Somente se as cores de "nav a" alterarem a cor do txt btn */
   padding: 20px 50px;
@@ -182,6 +186,45 @@ h1 {
   }
 
   .f3-subcards-block img {
-    width: calc(50% - 13px); /* RESPOSIVIDADE + fluída: reduz width e o gap entre as imgs.*/
+    width: calc(
+      50% - 13px
+    ); /* RESPONSIVIDADE + fluída: reduz width e o gap entre as imgs.*/
+  }
+}
+
+@media (max-width: 1024px) {
+
+  #menu-icon {
+    display: inline-block;
+  }
+
+  .f1-conteudo {
+    flex-direction: column-reverse;
+  }
+
+  .f1-img {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .f1-textos {
+    text-align: center;
+  }
+
+  .f1-textos h1 {
+    font-size: 44px; /* Não são as medidas do Figma, escolhas do prof */
+    line-height: 47px;
+  }
+
+  .f1-textos h1 span {
+    color: #36392e;
+  }
+
+  .f1-textos br, nav {
+    display: none;
+  }
+
+  .f1-textos a {
+    width: 100%;
   }
 }
