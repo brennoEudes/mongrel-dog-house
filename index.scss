@@ -1,7 +1,6 @@
 @import "./src/components/adopt-btn";
 @import "./src/components/header";
 
-
 * {
   /*border: solid 1px red;*/
   margin: 5px;
@@ -26,37 +25,37 @@ Importante para a responsividade do site! */
   display: flex;
   justify-content: center; /* centraliza todo o bloco perante à pág*/
   padding: 30px 20px; /* Colocamos o padding nas laterais p/ garantir que os itens não encostem nas laterais durante a RESPONSIVIDADE */
-}
 
-.f1-conteudo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  .f1-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.f1-textos {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  max-width: 440px;
-  color: #36392e;
-}
+  .f1-textos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 440px;
+    color: #36392e;
 
-.f1-textos h1 span {
-  color: #145fa4;
-}
+    h1 {
+      font-size: 68px;
+      line-height: 69px;
+      font-weight: 700;
+      margin: 0px;
 
-h1 {
-  font-size: 68px;
-  line-height: 69px;
-  font-weight: 700;
-  margin: 0px;
-}
+      span {
+        color: #145fa4;
+      }
+    }
 
-.f1-textos p {
-  font-weight: 700;
-  line-height: normal;
-  margin-bottom: 40px;
+    p {
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: 40px;
+    }
+  }
 }
 
 /* SECTION 2*/
@@ -85,7 +84,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .f2-card:hover {
@@ -141,7 +140,7 @@ h1 {
 }
 
 .f3-cards-block img {
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .f3-cards-block img:hover {
