@@ -38,9 +38,30 @@
       }
     }
   }
+
   .subcards-block {
     display: flex;
     flex-direction: column;
     gap: 24px;
+  }
+
+  @media (max-width: 1200px) {
+    .cards-block {
+      flex-direction: column;
+
+      > img {
+        width: 100%;
+      }
+    }
+
+    .subcards-block {
+      flex-direction: row;
+
+      img {
+        width: calc(
+          50% - 13px
+        ); /* RESPONSIVIDADE + fluída: reduz width e o gap entre as imgs.*/
+      }
+    }
   }
 }

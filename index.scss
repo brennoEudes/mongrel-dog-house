@@ -29,25 +29,7 @@ Importante para a responsividade do site! */
 
 
 
-@media (max-width: 1200px) {
-  .f3-cards-block {
-    flex-direction: column;
-  }
 
-  .f3-subcards-block {
-    flex-direction: row;
-  }
-
-  .f3-cards-block > img {
-    width: 100%;
-  }
-
-  .f3-subcards-block img {
-    width: calc(
-      50% - 13px
-    ); /* RESPONSIVIDADE + fluída: reduz width e o gap entre as imgs.*/
-  }
-}
 
 @media (max-width: 1024px) {
   #menu-icon {
