@@ -101,17 +101,17 @@
 
 /* Pq a sessão usa o card how-it-works */
 /* SECTION 2*/
-.f2 {
+.section-2 {
   display: flex;
   justify-content: center;
   padding: 80px 20px;
 }
-.f2 h2 {
+.section-2 h2 {
   text-align: center;
   margin-bottom: 70px;
   font-size: 36px;
 }
-.f2 .f2-cards-block {
+.section-2 .cards-block {
   display: flex;
   flex-direction: row;
   gap: 70px;
