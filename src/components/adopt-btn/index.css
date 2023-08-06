@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.btn-adotar {
+  background-color: #75a342;
+  color: #fff; /* !important - Somente se as cores de "nav a" alterarem a cor do txt btn */
+  padding: 20px 50px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  filter: drop-shadow(0px 7px 15px rgba(134, 179, 74, 0.53)) drop-shadow(0px 5px 7px rgba(134, 179, 74, 0.1)) drop-shadow(0px 4px 4px rgba(177, 200, 146, 0.16));
+  transition: 0.3s; /* No elemento principal p/ iniciar e terminar acompanhando o cursor */
+}
+
+.btn-adotar:hover {
+  background-color: #7cb53b;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Mudança de cor no clique */
+.btn-adotar:active {
+  background-color: #679237;
+}/*# sourceMappingURL=index.css.map */
