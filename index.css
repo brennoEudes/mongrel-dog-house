@@ -120,48 +120,41 @@
 }
 
 /* SECTION 3*/
-.f3 {
+.section-3 {
   display: flex;
   justify-content: center;
   padding: 80px 20px;
+  /* Necessário para alinhar todos os itens do container ao centro! */
 }
-
-/* Necessário para alinhar todos os itens do container ao centro! */
-.f3 .wrapper {
+.section-3 .wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
 }
-
-.f3 .wrapper > h2 {
+.section-3 .wrapper h2 {
   text-align: center;
   font-size: 36px;
   margin: 0px;
 }
-
-.f3 .wrapper > p {
+.section-3 .wrapper p {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
   max-width: 950px;
 }
-
-.f3-cards-block {
+.section-3 .cards-block {
   display: flex;
   gap: 24px;
 }
-
-.f3-cards-block img {
+.section-3 .cards-block img {
   transition: 0.3s;
 }
-
-.f3-cards-block img:hover {
+.section-3 .cards-block img:hover {
   transform: scale(1.05);
 }
-
-.f3-subcards-block {
+.section-3 .subcards-block {
   display: flex;
   flex-direction: column;
   gap: 24px;
