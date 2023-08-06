@@ -1,37 +1,69 @@
 /* SECTION 1*/
 .section-1 {
+  display: flex;
+  justify-content: center; /* centraliza todo o bloco perante à pág*/
+  padding: 30px 20px; /* Colocamos o padding nas laterais p/ garantir que os itens não encostem nas laterais durante a RESPONSIVIDADE */
+
+  .content {
     display: flex;
-    justify-content: center; /* centraliza todo o bloco perante à pág*/
-    padding: 30px 20px; /* Colocamos o padding nas laterais p/ garantir que os itens não encostem nas laterais durante a RESPONSIVIDADE */
-  
-    .content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .texts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 440px;
+    color: #36392e;
+
+    h1 {
+      font-size: 68px;
+      line-height: 69px;
+      font-weight: 700;
+      margin: 0px;
+
+      span {
+        color: #145fa4;
+      }
     }
-  
+
+    p {
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: 40px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .content {
+      flex-direction: column-reverse;
+
+      > img {
+        width: 100%;
+        max-width: 400px;
+      }
+    }
+
     .texts {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      max-width: 440px;
-      color: #36392e;
-  
+      text-align: center;
+
       h1 {
-        font-size: 68px;
-        line-height: 69px;
-        font-weight: 700;
-        margin: 0px;
-  
+        font-size: 44px; /* Não são as medidas do Figma, escolhas do prof */
+        line-height: 47px;
+
         span {
-          color: #145fa4;
+          color: #36392e;
         }
       }
-  
-      p {
-        font-weight: 700;
-        line-height: normal;
-        margin-bottom: 40px;
+
+      br {
+        display: none;
+      }
+
+      .btn-adotar {
+        width: 100%;
       }
     }
   }
+}

@@ -43,6 +43,14 @@
 .cabecalho nav a:hover {
   color: #679237;
 }
+@media (max-width: 1024px) {
+  .cabecalho #menu-icon {
+    display: inline-block;
+  }
+  .cabecalho nav {
+    display: none;
+  }
+}
 
 /* SECTION 1*/
 .section-1 {
@@ -75,6 +83,31 @@
   font-weight: 700;
   line-height: normal;
   margin-bottom: 40px;
+}
+@media (max-width: 1024px) {
+  .section-1 .content {
+    flex-direction: column-reverse;
+  }
+  .section-1 .content > img {
+    width: 100%;
+    max-width: 400px;
+  }
+  .section-1 .texts {
+    text-align: center;
+  }
+  .section-1 .texts h1 {
+    font-size: 44px; /* Não são as medidas do Figma, escolhas do prof */
+    line-height: 47px;
+  }
+  .section-1 .texts h1 span {
+    color: #36392e;
+  }
+  .section-1 .texts br {
+    display: none;
+  }
+  .section-1 .texts .btn-adotar {
+    width: 100%;
+  }
 }
 
 .how-it-works-card {
@@ -191,34 +224,4 @@ Importante para a responsividade do site! */
   max-width: 1280px;
   width: 100%;
   /*border: 2px solid green;*/
-}
-
-@media (max-width: 1024px) {
-  #menu-icon {
-    display: inline-block;
-  }
-  .f1-conteudo {
-    flex-direction: column-reverse;
-  }
-  .f1-conteudo img {
-    width: 100%;
-    max-width: 400px;
-  }
-  .f1-textos {
-    text-align: center;
-  }
-  .f1-textos h1 {
-    font-size: 44px; /* Não são as medidas do Figma, escolhas do prof */
-    line-height: 47px;
-  }
-  .f1-textos h1 span {
-    color: #36392e;
-  }
-  .f1-textos br,
-  nav {
-    display: none;
-  }
-  .btn-adotar {
-    width: 100%;
-  }
 }/*# sourceMappingURL=index.css.map */
