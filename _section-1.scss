@@ -1,16 +1,16 @@
 /* SECTION 1*/
-.f1 {
+.section-1 {
     display: flex;
     justify-content: center; /* centraliza todo o bloco perante à pág*/
     padding: 30px 20px; /* Colocamos o padding nas laterais p/ garantir que os itens não encostem nas laterais durante a RESPONSIVIDADE */
   
-    .f1-conteudo {
+    .content {
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
   
-    .f1-textos {
+    .texts {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
