@@ -1,0 +1,46 @@
+/* SECTION 2*/
+.f2 {
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px;
+  }
+  
+  .f2 h2 {
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 36px;
+  }
+  
+  .f2-cards-block {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center; /* Como não consegui centralizar pelo wrapper em .f2, usei esse cmd */
+    flex-wrap: wrap; /* RESPONSIVIDADE sem necessidade de criar @mediaqueries, neste caso. */
+  }
+  
+  .f2-card {
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+  }
+  
+  .f2-card:hover {
+    transform: scale(1.1); /* Animação de aumento do card */
+  }
+  
+  .f2-card img {
+    height: 150px;
+  }
+  
+  .f2-card h4 {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .f2-card p {
+    text-align: center;
+    font-size: 16px;
+  }

@@ -1,5 +1,8 @@
 @import "./src/components/adopt-btn";
 @import "./src/components/header";
+@import "section-1";
+@import "section-2";
+@import "section-3";
 
 * {
   /*border: solid 1px red;*/
@@ -20,138 +23,11 @@ Importante para a responsividade do site! */
   /*border: 2px solid green;*/
 }
 
-/* SECTION 1*/
-.f1 {
-  display: flex;
-  justify-content: center; /* centraliza todo o bloco perante à pág*/
-  padding: 30px 20px; /* Colocamos o padding nas laterais p/ garantir que os itens não encostem nas laterais durante a RESPONSIVIDADE */
 
-  .f1-conteudo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
 
-  .f1-textos {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 440px;
-    color: #36392e;
 
-    h1 {
-      font-size: 68px;
-      line-height: 69px;
-      font-weight: 700;
-      margin: 0px;
 
-      span {
-        color: #145fa4;
-      }
-    }
 
-    p {
-      font-weight: 700;
-      line-height: normal;
-      margin-bottom: 40px;
-    }
-  }
-}
-
-/* SECTION 2*/
-.f2 {
-  display: flex;
-  justify-content: center;
-  padding: 80px 20px;
-}
-
-.f2 h2 {
-  text-align: center;
-  margin-bottom: 70px;
-  font-size: 36px;
-}
-
-.f2-cards-block {
-  display: flex;
-  flex-direction: row;
-  gap: 70px;
-  justify-content: center; /* Como não consegui centralizar pelo wrapper em .f2, usei esse cmd */
-  flex-wrap: wrap; /* RESPONSIVIDADE sem necessidade de criar @mediaqueries, neste caso. */
-}
-
-.f2-card {
-  width: 285px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transition: 0.3s;
-}
-
-.f2-card:hover {
-  transform: scale(1.1); /* Animação de aumento do card */
-}
-
-.f2-card img {
-  height: 150px;
-}
-
-.f2-card h4 {
-  text-align: center;
-  font-size: 18px;
-}
-
-.f2-card p {
-  text-align: center;
-  font-size: 16px;
-}
-
-/* SECTION 3*/
-.f3 {
-  display: flex;
-  justify-content: center;
-  padding: 80px 20px;
-}
-
-/* Necessário para alinhar todos os itens do container ao centro! */
-.f3 .wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-
-.f3 .wrapper > h2 {
-  text-align: center;
-  font-size: 36px;
-  margin: 0px;
-}
-
-.f3 .wrapper > p {
-  text-align: center;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 27px;
-  max-width: 950px;
-}
-
-.f3-cards-block {
-  display: flex;
-  gap: 24px;
-}
-
-.f3-cards-block img {
-  transition: 0.3s;
-}
-
-.f3-cards-block img:hover {
-  transform: scale(1.05);
-}
-
-.f3-subcards-block {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
 
 @media (max-width: 1200px) {
   .f3-cards-block {
