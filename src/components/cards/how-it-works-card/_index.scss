@@ -1,0 +1,25 @@
+.how-it-works-card {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.3s;
+
+  &:hover {
+    transform: scale(1.1); /* Animação de aumento do card */
+  }
+
+  img {
+    height: 150px;
+  }
+
+  h4 {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 16px;
+  }
+}

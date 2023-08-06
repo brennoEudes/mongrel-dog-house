@@ -77,6 +77,28 @@
   margin-bottom: 40px;
 }
 
+.how-it-works-card {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.3s;
+}
+.how-it-works-card:hover {
+  transform: scale(1.1); /* Animação de aumento do card */
+}
+.how-it-works-card img {
+  height: 150px;
+}
+.how-it-works-card h4 {
+  text-align: center;
+  font-size: 18px;
+}
+.how-it-works-card p {
+  text-align: center;
+  font-size: 16px;
+}
+
 /* SECTION 2*/
 .f2 {
   display: flex;
@@ -96,32 +118,6 @@
   gap: 70px;
   justify-content: center; /* Como não consegui centralizar pelo wrapper em .f2, usei esse cmd */
   flex-wrap: wrap; /* RESPONSIVIDADE sem necessidade de criar @mediaqueries, neste caso. */
-}
-
-.f2-card {
-  width: 285px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transition: 0.3s;
-}
-
-.f2-card:hover {
-  transform: scale(1.1); /* Animação de aumento do card */
-}
-
-.f2-card img {
-  height: 150px;
-}
-
-.f2-card h4 {
-  text-align: center;
-  font-size: 18px;
-}
-
-.f2-card p {
-  text-align: center;
-  font-size: 16px;
 }
 
 /* SECTION 3*/
