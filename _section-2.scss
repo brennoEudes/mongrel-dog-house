@@ -5,18 +5,18 @@
     display: flex;
     justify-content: center;
     padding: 80px 20px;
-  }
-  
-  .f2 h2 {
-    text-align: center;
-    margin-bottom: 70px;
-    font-size: 36px;
-  }
-  
-  .f2-cards-block {
-    display: flex;
-    flex-direction: row;
-    gap: 70px;
-    justify-content: center; /* Como não consegui centralizar pelo wrapper em .f2, usei esse cmd */
-    flex-wrap: wrap; /* RESPONSIVIDADE sem necessidade de criar @mediaqueries, neste caso. */
+
+    h2 {
+      text-align: center;
+      margin-bottom: 70px;
+      font-size: 36px;
+    }
+
+    .f2-cards-block {
+      display: flex;
+      flex-direction: row;
+      gap: 70px;
+      justify-content: center; /* Como não consegui centralizar pelo wrapper em .f2, usei esse cmd */
+      flex-wrap: wrap; /* RESPONSIVIDADE sem necessidade de criar @mediaqueries, neste caso. */
+    }
   }
