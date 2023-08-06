@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .btn-adotar {
   background-color: #75a342;
-  color: #fff; /* !important - Somente se as cores de "nav a" alterarem a cor do txt btn */
+  color: #fff !important; /* !important - Somente se as cores de "nav a" alterarem a cor do txt btn */
   padding: 20px 50px;
   border-radius: 50px;
   font-size: 18px;
@@ -20,6 +20,28 @@
 /* Mudança de cor no clique */
 .btn-adotar:active {
   background-color: #679237;
+}
+
+.cabecalho {
+  display: flex; /* row é o padrão */
+  justify-content: space-between;
+}
+.cabecalho #menu-icon {
+  display: none;
+}
+.cabecalho nav {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+.cabecalho nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  transition: 0.2s;
+}
+.cabecalho nav a:hover {
+  color: #679237;
 }
 
 * {
@@ -46,31 +68,6 @@ Importante para a responsividade do site! */
   display: flex;
   justify-content: center; /* centraliza todo o bloco perante à pág*/
   padding: 30px 20px; /* Colocamos o padding nas laterais p/ garantir que os itens não encostem nas laterais durante a RESPONSIVIDADE */
-}
-
-header {
-  display: flex; /* row é o padrão */
-  justify-content: space-between;
-}
-
-#menu-icon {
-  display: none;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  gap: 70px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #000;
-  font-weight: 700;
-}
-
-nav a:hover {
-  color: #679237;
 }
 
 .f1-conteudo {

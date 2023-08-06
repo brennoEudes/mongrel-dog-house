@@ -1,4 +1,6 @@
 @import "./src/components/adopt-btn";
+@import "./src/components/header";
+
 
 * {
   /*border: solid 1px red;*/
@@ -24,31 +26,6 @@ Importante para a responsividade do site! */
   display: flex;
   justify-content: center; /* centraliza todo o bloco perante à pág*/
   padding: 30px 20px; /* Colocamos o padding nas laterais p/ garantir que os itens não encostem nas laterais durante a RESPONSIVIDADE */
-}
-
-header {
-  display: flex; /* row é o padrão */
-  justify-content: space-between;
-}
-
-#menu-icon {
-  display: none;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  gap: 70px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #000;
-  font-weight: 700;
-}
-
-nav a:hover {
-  color: #679237;
 }
 
 .f1-conteudo {
