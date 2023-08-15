@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Importe do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="./public/css/global.css" />
     <link rel="stylesheet" href="./public/css/normalize.css" />
     <link rel="stylesheet" href="index.css" />
@@ -10,13 +15,13 @@
   </head>
   <body>
     <main class="section-1">
-      <div class="wrapper">
-        <header class="cabecalho">
+      <div class="container wrapper">
+        <header class=" d-flex cabecalho">
           <img
             src="./public/images/pets.svg"
             alt="logo-casa-do-vira-lata"
           />
-          <img id="menu-icon" src="./public/images/menu.svg" alt="Icone menu">
+          <img class="invisible" id="menu-icon" src="./public/images/menu.svg" alt="Icone menu">
           <nav>
             <a href="#">Como funciona?</a>
             <a href="#">Quem somos?</a>
@@ -44,7 +49,9 @@
         </div>
       </div>
     </main>
-    <section class="section-2">
+
+    
+    <!-- <section class="section-2">
       <div class="wrapper">
         <h2>Como funciona?</h2>
         <div class="cards-block">
@@ -95,6 +102,6 @@
             </div>
           </div>
       </div>
-    </section>
+    </section> -->
   </body>
 </html>
