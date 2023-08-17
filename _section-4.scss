@@ -1,0 +1,18 @@
+@import "./src/components/cards/volunteeer/";
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+
+  .wrapper > h1 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .list-volunteer {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+}

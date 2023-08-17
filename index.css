@@ -26,6 +26,36 @@
 - 1º Fizemos a estilização com CSS, 
 - depois organizamos o código com o SASS, 
 - e por último, foi usado o Bootstrap! Comentamos abaixo para a estilização via bootstrap */
+.card-volunteer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.card-volunteer h1 {
+  font: 700 18px "Poppins";
+  margin: 0px;
+}
+.card-volunteer p {
+  font: 400 18px "Poppins";
+  margin: 0px;
+}
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+}
+.section-4 .wrapper > h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-4 .list-volunteer {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
 * {
   /*border: solid 1px red;*/
   margin: 5px;
