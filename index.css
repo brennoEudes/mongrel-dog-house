@@ -56,6 +56,68 @@
   gap: 60px;
 }
 
+.section-5 {
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+}
+.section-5 .wrapper > h1 {
+  text-align: center;
+}
+.section-5 p {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0px auto;
+  margin-bottom: 80px;
+}
+.section-5 .conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.section-5 .conteudo .cadastro-adotante {
+  background-color: #fff;
+  max-width: 500px;
+  width: 500px;
+  padding: 30px 25px;
+  position: relative; /*Permite que o elemeno filho seja position absolute*/
+  border-radius: 25px;
+  box-shadow: 0px 4px 14px 3px rgba(205, 189, 189, 0.25), 0px 4px 4px 0px rgba(198, 183, 183, 0.25);
+}
+.section-5 .conteudo .cadastro-adotante .passos {
+  position: absolute;
+  right: 28px;
+  top: 46px;
+  font-size: 16px;
+  color: #899185;
+}
+.section-5 .conteudo .cadastro-adotante h1 {
+  font-size: 24px;
+}
+.section-5 .conteudo .cadastro-adotante .form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.section-5 .conteudo .cadastro-adotante .form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.section-5 .conteudo .cadastro-adotante .form-item label {
+  font-size: 14px;
+}
+.section-5 .conteudo .cadastro-adotante .form-item select {
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid #9c8f8f;
+  border-radius: 4px;
+}
+.section-5 .conteudo .cadastro-adotante .form-item .green {
+  color: #75a342;
+}
+
 * {
   /*border: solid 1px red;*/
   margin: 5px;
@@ -64,7 +126,8 @@
 body {
   font-family: "Poppins";
   font-size: 18px;
-  background-color: #fefdfb;
+  background-color: #fffbf1;
+  background: var(--brand-background, linear-gradient(181deg, #fff 0%, rgba(255, 255, 255, 0) 100%), #fffbf1);
 }
 
 /* Engloba todos os containers, subcontainers e elementos.

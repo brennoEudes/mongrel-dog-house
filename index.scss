@@ -10,6 +10,7 @@
 // @import "section-2";
 // @import "section-3";
 @import "section-4";
+@import "section-5";
 
 * {
   /*border: solid 1px red;*/
@@ -19,7 +20,12 @@
 body {
   font-family: "Poppins";
   font-size: 18px;
-  background-color: #fefdfb;
+  background-color: #fffbf1;
+  background: var(
+    --brand-background,
+    linear-gradient(181deg, #fff 0%, rgba(255, 255, 255, 0) 100%),
+    #fffbf1
+  );
 }
 
 /* Engloba todos os containers, subcontainers e elementos.
@@ -30,5 +36,3 @@ Importante para a responsividade do site! */
 //   margin: 0px auto;
 //   /*border: 2px solid green;*/
 // }
-
-
