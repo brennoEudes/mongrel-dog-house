@@ -302,4 +302,8 @@ body {
 }
 
 /* Engloba todos os containers, subcontainers e elementos.
-Importante para a responsividade do site! *//*# sourceMappingURL=index.css.map */
+Importante para a responsividade do site! */
+footer {
+  background-color: #75A342;
+  height: 5vh;
+}/*# sourceMappingURL=index.css.map */
