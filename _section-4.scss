@@ -15,4 +15,12 @@
     justify-content: center;
     gap: 60px;
   }
+
+  @media (max-width: 1024px) {
+    .list-volunteer {
+      overflow: hidden;
+    }
+
+    
+  }
 }

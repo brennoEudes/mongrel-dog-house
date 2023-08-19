@@ -24,7 +24,7 @@
     .cadastro-adotante {
       background-color: #fff;
       max-width: 500px;
-      width: 500px;
+      width: 100%;
       padding: 30px 25px;
       position: relative; /*Permite que o elemeno filho seja position absolute*/
       border-radius: 25px;
@@ -74,5 +74,11 @@
 
   .btn-adotar {
     padding: 15px 20px;
+  }
+
+  @media (max-width: 1024px) {
+    .conteudo {
+      flex-direction: column-reverse; /* Reverse inverte tb a ordem dos elementos! */
+    }
   }
 }
