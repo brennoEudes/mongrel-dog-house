@@ -9,6 +9,8 @@
   text-decoration: none;
   filter: drop-shadow(0px 7px 15px rgba(134, 179, 74, 0.53)) drop-shadow(0px 5px 7px rgba(134, 179, 74, 0.1)) drop-shadow(0px 4px 4px rgba(177, 200, 146, 0.16));
   transition: 0.3s; /* No elemento principal p/ iniciar e terminar acompanhando o cursor */
+  outline: none;
+  border: none;
 }
 
 .btn-adotar:hover {
@@ -116,6 +118,9 @@
 }
 .section-5 .conteudo .cadastro-adotante .form-item .green {
   color: #75a342;
+}
+.section-5 .btn-adotar {
+  padding: 15px 20px;
 }
 
 * {

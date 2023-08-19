@@ -12,6 +12,8 @@
       drop-shadow(0px 4px 4px rgba(177, 200, 146, 0.16));
   
     transition: .3s; /* No elemento principal p/ iniciar e terminar acompanhando o cursor */
+    outline: none;
+    border: none;
   }
   
   .btn-adotar:hover {
